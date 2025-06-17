@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Archana <span>Kumari</span></a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="progress"></div>
+
+        <button class="gradient-btn" id="scroll-to-contact">Contact Me</button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+
+            <h1>Hi it's <span>Archana</span></h1>
+
+            <h3>I'm a <span id="home-span">Web Developer</span></h3>
+
+            <p>A motivated and curious technology enthusiast with a background in network infrastructure and a keen
+                interest in coding. Known for a willingness to learn, a proactive mindset, and a practical approach to
+                solving technological challenges. Eager to contribute to dynamic teams while continuously expanding
+                technical skills and knowledge.</p>
+
+            <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/archana-kumari-6a1b621a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="Archana_Kumari_Resume.pdf" target="_blank" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+
+        </div>
+
+
+        <div class="home-img">
+            <img src="Archana.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="about reveal" id="about">
+
+        <div class="about-img">
+            <img src="Archana.png" alt="">
+        </div>
+
+        <div class="about-content autoShow">
+            <h2>About <span>Me</span></h2>
+            <p>A motivated and curious technology enthusiast with a background in network infrastructure and a keen
+                interest in coding. Known for a willingness to learn, a proactive mindset, and a practical approach to
+                solving technological challenges. Eager to contribute to dynamic teams while continuously expanding
+                technical skills and knowledge.</p>
+            <a href="/pages/about/about.html" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+    <section class="services reveal" id="services">
+
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI / UX Design</h4>
+                    <p>
+                        "Experienced in UI/UX design with a focus on creating intuitive, user-centered interfaces.
+                        Skilled in wireframing, prototyping, and visual design using tools like Figma, while applying
+                        design principles to enhance usability, accessibility, and overall user experience."
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Frontend Developement</h4>
+                    <p>
+                        "Skilled in frontend development using HTML5, CSS3, JavaScript, and modern libraries like
+                        React.js. Experienced in building responsive, user-friendly interfaces with strong attention to
+                        UI/UX design, accessibility, and performance optimization. Proficient in tools like Tailwind
+                        CSS, Git, and browser DevTools for efficient development workflows."
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-code-curly'></i>
+                    <h4>Backend Developement</h4>
+                    <p>
+                        "Experienced in backend development using Node.js and Express.js to build scalable, secure
+                        RESTful APIs. Proficient in working with relational (MySQL) and NoSQL (MongoDB) databases,
+                        implementing authentication, managing server-side logic, and integrating with frontend
+                        applications for seamless full-stack functionality."
+                    </p>
+                </div>
+
+                <!-- </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bxs-data'></i>
+                    <h4>Database Management</h4>
+                    <p>
+                        "Proficient in managing relational and NoSQL databases with hands-on experience in MySQL and
+                        MongoDB. Skilled in designing normalized schemas, writing complex queries, performing CRUD
+                        operations, and optimizing database performance to support scalable, data-driven applications."
+                    </p>
+                </div>
+            </div> -->
+
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bxl-docker'></i>
+                    <h4>Deployment</h4>
+                    <p>
+                        "Experienced in deploying full-stack web applications using platforms like AWS. Skilled in
+                        configuring build pipelines, managing environment variables, and ensuring smooth CI/CD workflows
+                        for scalable and reliable production deployments."
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="projects reveal" id="projects">
+
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+
+            <div class="project-card">
+                <img src="Netflix-Revamps-Logo.jpg" alt="">
+
+                <h3>Netflix Clone</h3>
+
+                <p>
+                    "Cloned the Netflix landing page using only HTML5 and CSS3, replicating layout, styling, and
+                    responsiveness with pixel-perfect accuracy—without using JavaScript or external frameworks."
+                </p>
+
+                <a href="http://192.168.0.100:3004/index.html" class="btn" target="_blank">Review Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="weatherApp.png" alt="">
+
+                <h3>Weather App</h3>
+
+                <p>
+                    "Built a responsive weather application using vanilla JavaScript and the Fetch API to retrieve
+                    real-time weather data from a public API. Implemented dynamic DOM updates, error handling, and user
+                    input validation to provide a seamless and interactive user experience."
+                </p>
+
+                <a class="btn" href="http://192.168.0.100:3002/index.html" target="_blank">Review Project</a>
+            </div>
+
+            <!-- <div class="project-card">
+                <img src="project3.png" alt="">
+
+                <h3>Project 3</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil inventore error labore consequatur
+                    voluptates nobis ipsam ipsa dolore vero maxime? Expedita consectetur qui perferendis dolores
+                    mollitia soluta, aspernatur minima optio!</p>
+
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="project4.png" alt="">
+
+                <h3>Project 4</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil inventore error labore consequatur
+                    voluptates nobis ipsam ipsa dolore vero maxime? Expedita consectetur qui perferendis dolores
+                    mollitia soluta, aspernatur minima optio!</p>
+
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="project5.png" alt="">
+
+                <h3>Project 5</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil inventore error labore consequatur
+                    voluptates nobis ipsam ipsa dolore vero maxime? Expedita consectetur qui perferendis dolores
+                    mollitia soluta, aspernatur minima optio!</p>
+
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="project6.png" alt="">
+
+                <h3>Project 6</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil inventore error labore consequatur
+                    voluptates nobis ipsam ipsa dolore vero maxime? Expedita consectetur qui perferendis dolores
+                    mollitia soluta, aspernatur minima optio!</p>
+
+                <div class="btn">Review Project</div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="contact reveal" id="contact">
+
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="contact-form" action="https://formspree.io/f/xpwrrpvq" method="POST">
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="email">
+                        <input type="text" name="full-name" placeholder="Full Name">
+                    </label>
+
+                    <label for="email">
+                        <input type="email" name="email" placeholder="Email">
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">
+                        <input type="number" name="ph-num" placeholder="Phone Number">
+                    </label>
+
+                    <label for="email">
+                        <input type="text" name="subject" placeholder="Subject">
+                    </label>
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <label for="email">
+                    <textarea name="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+                </label>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="social-icons">
+            <a href="#">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#services">Services</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#projects">Project</a>
+            </li>
+
+            <li>
+                <a href="#contact">Conatct</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            © Archana Kumari | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

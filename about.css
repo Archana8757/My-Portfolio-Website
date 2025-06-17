@@ -147,7 +147,7 @@ section {
 }
 
 .project-card:hover .none {
-  display: inline-block;
+  display: none;
 }
 
 @media screen and (min-device-width: 400px) and (max-device-width: 430px) {

@@ -154,10 +154,36 @@ section {
   section {
     padding: 10rem 0%;
   }
+
+  .projects-box {
+    row-gap: 8rem;
+    padding: 0;
+  }
+
+  .project-card{
+    padding: 6rem 8rem;
+  }
+
+  .project-card h3 {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (min-device-width: 300px) and (max-device-width: 399px) {
   section {
     padding: 10rem 3%;
+  }
+
+  .projects-box {
+    row-gap: 8rem;
+    padding: 0;
+  }
+
+  .project-card{
+    padding: 6rem 8rem;
+  }
+
+  .project-card h3 {
+    font-size: 2.5rem;
   }
 }
